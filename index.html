@@ -1,44 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ana Sayfa</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Örnek Kişisel Web Sitesi</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(82, 98, 105)">
+    <header class="bg-primary text-white text-center py-4">
+        <h1>Ahmet Kasap</h1>
+    </header>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="index.html">ANA SAYFA</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active px-5" aria-current="page" href="ozgecmis.html">ÖZGEÇMİŞ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active px-5" aria-current="page" href="kayseri.html">ŞEHRİM</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active px-5" aria-current="page" href="mirasimiz.html">MİRASIMIZ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active px-5" aria-current="page" href="#">İLGİ ALANLARIM</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active px-5" aria-current="page" href="#">İLETİŞİM</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active px-5" aria-current="page" href="login.html">GİRİŞ YAP</a>
-                    </li>
-                </ul>
-            </div>
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Ana Sayfa</a></li>
+                <li class="nav-item"><a class="nav-link" href="ozgecmis.html">Özgeçmiş</a></li>
+                <li class="nav-item"><a class="nav-link" href="#hakkimda">Hakkımda</a></li>
+                <li class="nav-item"><a class="nav-link" href="#iletisim">İletişim</a></li>
+            </ul>
         </div>
     </nav>
-    
+
+    <main class="container py-4">
+        <section id="anasayfa">
+            <!-- ... Ana sayfa içeriği ... -->
+        </section>
+
+        <section id="hakkimda">
+        <h2 class="mb-3">Hakkımda</h2>
+        <div class="card mb-3">
+            <div class="card-body">
+                <p>Merhaba! Ben John Doe. Örnek Meslek adında bir alanda uzmanım ve bu alanda X yılı aşkın süredir çalışıyorum.</p>
+                <p>Boş zamanlarımda çeşitli hobilerle ilgilenmeyi ve spor etkinliklerine katılmayı severim.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h3 class="card-title">Hobilerim</h3>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Yürüyüş yapmak ve doğada vakit geçirmek</li>
+                            <li class="list-group-item">Kitap okumak ve yazmak</li>
+                            <li class="list-group-item">Fotoğraf çekmek ve seyahat etmek</li>
+                            <li class="list-group-item">Müzik dinlemek ve gitar çalmak</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h3 class="card-title">Spor Etkinlikleri</h3>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Koşu yapmak ve koşu etkinliklerine katılmak</li>
+                            <li class="list-group-item">Yoga ve meditasyonla ilgilenmek</li>
+                            <li class="list-group-item">Yüzme yapmak</li>
+                            <li class="list-group-item">Bisiklete binmek</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p>Her fırsatta yeni beceriler öğrenmek için çaba sarf ederim ve kendimi sürekli geliştirmeye çalışırım.</p>
+    </section>
+
+        <section id="iletisim">
+            <!-- ... İletişim içeriği ... -->
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-2">
+        <p>Telif Hakkı &copy; 2023 Ahmet Kasap</p>
+    </footer>
+
+    <!-- Bootstrap JavaScript dosyasını eklemek için: -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
