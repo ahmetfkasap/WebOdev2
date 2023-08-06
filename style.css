@@ -25,14 +25,63 @@ nav {
 }
 
 
-main {
-  padding: 20px;
-}
-
 footer {
-  text-align: center;
-  padding: 10px;
   background-color: #333;
   color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
+.education {
+  margin-bottom: 30px;
 }
 
+.education h2 {
+  color: #2196F3;
+  margin-bottom: 10px;
+}
+
+.education h3 {
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.education p {
+  margin-bottom: 5px;
+  line-height: 1.4;
+  color: #444;
+}
+
+
+
+main {
+  display: flex;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 30px;
+  text-align: center;
+  justify-content: center;
+}
+
+aside {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.education article {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.row-cols-lg-4 .col {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+/* İsteğe bağlı olarak kartlar arasındaki boşluğu ayarlayın */
+.g-4 .col {
+  margin-bottom: 1rem;
+}

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Örnek Kişisel Web Sitesi</title>
+    <title>Ana Sayfa</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -20,60 +20,100 @@
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item"><a class="nav-link" href="index.html">Ana Sayfa</a></li>
                 <li class="nav-item"><a class="nav-link" href="ozgecmis.html">Özgeçmiş</a></li>
-                <li class="nav-item"><a class="nav-link" href="#hakkimda">Hakkımda</a></li>
-                <li class="nav-item"><a class="nav-link" href="iletisim.html">İletişim</a></li>
                 <li class="nav-item"><a class="nav-link" href="sehrim.html">Şehrim</a></li>
+                <li class="nav-item"><a class="nav-link" href="mirasimiz.html">Mirasımız</a></li>
+                <li class="nav-item"><a class="nav-link" href="iletisim.html">İletişim</a></li>
             </ul>
         </div>
     </nav>
 
     <main class="container py-4">
-        <section id="anasayfa">
-            <!-- ... Ana sayfa içeriği ... -->
-        </section>
+
 
         <section id="hakkimda">
-        <h2 class="mb-3">Hakkımda</h2>
-        <div class="card mb-3">
-            <div class="card-body">
-                <p>Merhaba! Ben John Doe. Örnek Meslek adında bir alanda uzmanım ve bu alanda X yılı aşkın süredir çalışıyorum.</p>
-                <p>Boş zamanlarımda çeşitli hobilerle ilgilenmeyi ve spor etkinliklerine katılmayı severim.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="card mb-3">
-                    <div class="card-body">
-                        <h3 class="card-title">Hobilerim</h3>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Yürüyüş yapmak ve doğada vakit geçirmek</li>
-                            <li class="list-group-item">Kitap okumak ve yazmak</li>
-                            <li class="list-group-item">Fotoğraf çekmek ve seyahat etmek</li>
-                            <li class="list-group-item">Müzik dinlemek ve gitar çalmak</li>
-                        </ul>
-                    </div>
+            <h2 class="mb-3">Hakkımda</h2>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <p>Merhaba! Ben Ahmet Furkan Kasap. Bilgisayar Mühendisliği 3.Sınıf öğrencisiyim.</p>
+                    <p>Boş zamanlarımda çeşitli hobilerle ilgilenmeyi (kitap okumak, film izlemek vb.) ve seyehat etmeyi
+                        severim.</p>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="card mb-3">
-                    <div class="card-body">
-                        <h3 class="card-title">Spor Etkinlikleri</h3>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Koşu yapmak ve koşu etkinliklerine katılmak</li>
-                            <li class="list-group-item">Yoga ve meditasyonla ilgilenmek</li>
-                            <li class="list-group-item">Yüzme yapmak</li>
-                            <li class="list-group-item">Bisiklete binmek</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <p>Her fırsatta yeni beceriler öğrenmek için çaba sarf ederim ve kendimi sürekli geliştirmeye çalışırım.</p>
-    </section>
+            <div class="row">
+                <div class="col">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h3 class="card-title">Hobilerim</h3>
+                            <div class="row row-cols-1 row-cols-md-2 g-4">
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="img/yazilim.jpg" class="card-img-top" alt="Yazılım">
+                                        <div class="card-body">
+                                            <h5 class="card-title">YAZILIM</h5>
+                                            <p class="card-text">
+                                                Yazılım bilgilerim yeni yeni oluşsa da bazı dillerle kod yazıyorum.
+                                                Web programlama için: HTML, CSS, PHP ve JavaScritp kullanıyorum.
+                                                Bunların dışında da C++ ve C# ile de kodlar yazıyorum.
+                                            </p>
+                                            <a href="https://github.com/ahmetfkasap" class="btn btn-primary">Github
+                                                Adresim</a>
+                                        </div>
+                                    </div>
+                                </div> <br>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="img/cybersecurity.jpg" class="card-img-top" alt="Siber Güvenlik">
+                                        <div class="card-body">
+                                            <h5 class="card-title">SİBER GÜVENLİK</h5>
+                                            <p class="card-text">İlgilenmekten en çok keyif aldığım ilgim diyebilirim.
+                                                Son
+                                                zamanlarda üzerine çok düştüğüm bir alan.
+                                                Ayrıca Sakarya Üniversitesi Siber Güvenlik Topluluğu(SAUSIBER)'nda
+                                                yönetim ekibinde bulundum.
+                                            </p>
+                                            <a href="https://sausiber.sakarya.edu.tr" class="btn btn-primary">SAUSIBER
+                                                Sitesi</a>
+                                        </div>
+                                    </div>
+                                </div> <br>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="img/movie.jpg" class="card-img-top" alt="Film Dizi">
+                                        <div class="card-body">
+                                            <h5 class="card-title">DİZİ/FİLM</h5>
+                                            <p class="card-text">Çok fazla dizi/film izleyen birisi olmasam da haftada
+                                                mutlaka 1
+                                                film izlerim.<br>
+                                                Favori Filmlerim: Fight Club, Shutter Island <br>
+                                                Favori Dizim: Breaking Bad
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <br>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="img/books.jpg" class="card-img-top" alt="Kitap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">KİTAP</h5>
+                                            <p class="card-text">Son 1 yıla kadar kitap okumayı çok severdim, hala da
+                                                seviyorum
+                                                fakat eskisi kadar okuyamıyorum. Yine de vazgeçemeyeceğim bir hobim
+                                                diyebilirim.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-        <section id="iletisim">
-            <!-- ... İletişim içeriği ... -->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
         </section>
+
+
     </main>
 
     <footer class="bg-dark text-white text-center py-2">
