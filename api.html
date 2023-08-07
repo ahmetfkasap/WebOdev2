@@ -3,12 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Özgeçmiş</title>
+    <title>API</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
@@ -20,38 +18,28 @@
         <div class="container">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item"><a class="nav-link" href="index.html">Ana Sayfa</a></li>
-                <li class="nav-item"><a class="nav-link" style="color: white;" href="ozgecmis.html">Özgeçmiş</a></li>
+                <li class="nav-item"><a class="nav-link" href="ozgecmis.html">Özgeçmiş</a></li>
                 <li class="nav-item"><a class="nav-link" href="sehrim.html">Şehrim</a></li>
                 <li class="nav-item"><a class="nav-link" href="mirasimiz.html">Mirasımız</a></li>
-                <li class="nav-item"><a class="nav-link" href="api.html">API</a></li>
+                <li class="nav-item"><a class="nav-link" style="color: white;" href="api.html">API</a></li>
                 <li class="nav-item"><a class="nav-link" href="iletisim.html">İletişim</a></li>
                 <li class="nav-item"><a class="nav-link" href="login.html">Girş Yap</a></li>
             </ul>
         </div>
     </nav>
-    <header>
-        <h1>Özgeçmiş</h1>
-    </header>
 
-    <section class="education">
-        <h2>Eğitim Bilgileri</h2>
-        <article>
-            <h3>Lisans Eğitimi</h3>
-            <p><strong>Sakarya Üniversitesi</strong></p>
-            <p>Bölüm: Bilgisayar Mühendisliği</p>
-            <p>Mezuniyet Yılı: 2025(?)</p>
-        </article>
-
-        <article>
-            <h3>Lise Eğitimi</h3>
-            <p><strong>Fatma Kemal Timuçin Anadolu Lisesi</strong></p>
-            <p>Mezuniyet Yılı: 2020</p>
-        </article>
-    </section>
+    <h1>Chuck Norris API </h1>
+    <button onclick="getJoke()">Şaka Getir</button>
+    <div id="joke"></div>
 
     <footer class="bg-dark text-white text-center py-2">
         <p>Telif Hakkı &copy; 2023 Ahmet Kasap</p>
     </footer>
+    <script src="api.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>

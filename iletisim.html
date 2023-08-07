@@ -21,6 +21,7 @@
                 <li class="nav-item"><a class="nav-link" href="ozgecmis.html">Özgeçmiş</a></li>
                 <li class="nav-item"><a class="nav-link" href="sehrim.html">Şehrim</a></li>
                 <li class="nav-item"><a class="nav-link" href="mirasimiz.html">Mirasımız</a></li>
+                <li class="nav-item"><a class="nav-link" href="api.html">API</a></li>
                 <li class="nav-item"><a class="nav-link" style="color: white;" href="iletisim.html">İletişim</a></li>
                 <li class="nav-item"><a class="nav-link" href="login.html">Girş Yap</a></li>
             </ul>
@@ -28,7 +29,7 @@
     </nav>
     <div class="container mt-5">
         <h1 class="text-center mb-4">İletişim Formu</h1>
-        <form action="iletisim.php" method="POST" id="iletisimform">
+        <form action="iletisim.php" method="POST" id="iletisimform" onsubmit="return validateForm()">
             <div class="mb-3">
                 <label for="name" class="form-label">Adınız Soyadınız</label>
                 <input type="text" class="form-control" id="name" name="name" required>

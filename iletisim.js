@@ -1,4 +1,6 @@
 function validateForm() {
+    
+
     var name = document.getElementById('name').value;
     var email = document.getElementById('email').value;
     var message = document.getElementById('message').value;
@@ -30,7 +32,7 @@ function validateForm() {
         return false;
     }
 
-    return true;
+
 }
 
 
